@@ -13,6 +13,6 @@ form.addEventListener('submit',e=>{
          }
     });
 
-    result.querySelector('span').textContent = '${score}%';
+    result.querySelector('span').textContent = `${score}%`;
     result.classList.remove('d-none');
 });
