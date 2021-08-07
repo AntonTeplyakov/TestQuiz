@@ -15,8 +15,12 @@ form.addEventListener('submit',e=>{
          }
     });
 
+<<<<<<< Updated upstream
     scrollTo(0, 0);
   
+=======
+    result.querySelector('span').textContent = ${score}%';
+>>>>>>> Stashed changes
     result.classList.remove('d-none');
 
     let output = 0;
